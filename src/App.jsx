@@ -9,13 +9,15 @@ import Login from './components/pages/Login'
 import RutasAdmin from './components/Routes/RutasAdmin'
 import RutasProtegidas from './components/Routes/RutasProtegidas'
 import "bootstrap-icons/font/bootstrap-icons.css";
+import { useState } from 'react'
 function App() {
- 
+ const usuario = JSON.parse(sessionStorage.getItem('userKey'))||'';
+ const [usuarioLogueado, setUsuarioLogueado] = useState(usuario)
 
   return (
     <>
       <BrowserRouter>
-      <Menu></Menu>
+      <Menu usuarioLogueado={usuarioLogueado} setUsuarioLogueado={setUsuarioLogueado}></Menu>
       <Routes>
       <Route exact path='/' element={<Inicio></Inicio>}></Route>
       <Route exact path='/detalleproducto/:id' element={<DetalleProducto></DetalleProducto>}></Route>
@@ -24,7 +26,7 @@ function App() {
               <RutasAdmin></RutasAdmin>
             </RutasProtegidas>
           }></Route>
-      <Route exact path='/login' element={<Login></Login>}></Route>
+      <Route exact path='/login' element={<Login setUsuarioLogueado={setUsuarioLogueado}></Login>}></Route>
       <Route exact path='*' element={<Error404></Error404>}></Route>
       </Routes>
       <Footer></Footer>
