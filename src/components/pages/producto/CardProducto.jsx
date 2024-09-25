@@ -1,31 +1,32 @@
-import { Col, Card, Button } from "react-bootstrap";
-
-const CardProducto = () => {
+import { Col, Card, Button, CardFooter } from "react-bootstrap";
+import DetalleProducto from "../DetalleProducto"
+import { Link } from "react-router-dom";
+const CardProducto = ({recetas}) => {
   return (
-    <Col md={4} lg={3} className="mb-3">
-      <Card className="h-100">
-        <div>
-          <img
-            src="https://images.pexels.com/photos/414555/pexels-photo-414555.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-            alt="cafe"
-            className="card-img-top-nueva"
-          />
-        </div>
-        <Card.Body>
-          <Card.Title className="primary-font">Capuchino</Card.Title>
-          <Card.Text>
-            Descripción: Espuma de leche cremosa sobre un espresso
-            fuerte. <br className="mb-2" />
-            <span className="fw-bold">Precio: $350</span>
-          </Card.Text>
-        </Card.Body>
-        <Card.Footer className="text-end">
-          <Button variant="success" className="me-2">
-            Ver más
-          </Button>
-        </Card.Footer>
-      </Card>
-    </Col>
+    <div className="my-2 col-3">
+            <Card>
+              <Card.Img variant="top" src={recetas.imagen} />
+              <Card.Body>
+                <h5 className="verdeOscuro">{recetas.nombreReceta} </h5>
+                <div className="p-0 m-0">
+                  <b>Categoria: {recetas.categoria} </b>
+                </div>
+                <Card.Text>
+                  {recetas.descripcion_breve}
+                </Card.Text>
+              </Card.Body>
+              <CardFooter>
+                <div className="text-end">
+                  <Link
+                    to={`./DetalleProducto/${recetas.id}`}
+                    className="btn text-black" style={{backgroundColor: 'rgb(242, 169, 182)'}}
+                  >
+                    Ver detalle
+                  </Link>
+                </div>
+              </CardFooter>
+            </Card>
+          </div>
   );
 };
 

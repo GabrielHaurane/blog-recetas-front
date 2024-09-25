@@ -1,0 +1,22 @@
+{
+  "recetas": [
+    {
+      "nombreReceta": "panqueques",
+      "imagen": "https://images.pexels.com/photos/5840088/pexels-photo-5840088.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "categoria": "Dulce",
+      "ingredientes": "3 huevos, 1 cucharada de azucar, 1 taza de leche, 1 pizca de sal, 1 taza de harina 0000",
+      "descripcion": "Mezclar los huevos con el azúcar Hileret Light, incorporar la leche y la pizca de sal",
+      "descripcion_breve": "descripcion breve",
+      "id": "123"
+    },
+    {
+      "nombreReceta": "Tostada a la francesa",
+      "imagen": "https://images.pexels.com/photos/5591730/pexels-photo-5591730.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "categoria": "Desayuno",
+      "ingredientes": "2 tostadas\n1 huevos\ncanela\nvainillin",
+      "descripcion_breve": "sssssssssssssssss",
+      "descripcion": "batir dos huevos en un plato, para luego agregar un poco de canela, una pizca de vainillin, luego de mezclar todo junto mojar el pan en el huevo y con fuego bajo en una sarten colocarlos viendo cada tanto como van y luego servir",
+      "id": "3ARpgk2"
+    }
+  ]
+}

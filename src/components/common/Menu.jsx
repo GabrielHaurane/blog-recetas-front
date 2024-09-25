@@ -1,8 +1,14 @@
-import { Navbar, Container, Nav } from "react-bootstrap";
+import { Navbar, Container, Nav, Button } from "react-bootstrap";
 import logo from "../../components/img/icon.webp";
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, useNavigate } from "react-router-dom";
 
-const Menu = () => {
+const Menu = ({usuarioLogueado, setUsuarioLogueado}) => {
+  const logout =()=>{
+    sessionStorage.removeItem('userKey')
+    setUsuarioLogueado('')
+    navegacion('/')
+  }
+  const navegacion = useNavigate()
   return (
     <Navbar expand="lg" className="backC">
       <Container className="d-flex justify-content-between">
@@ -19,8 +25,15 @@ const Menu = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto w-50 d-flex justify-content-end">
             <NavLink end className='nav-link fs-5' to='/'>Inicio</NavLink>
-            <NavLink end className='nav-link fs-5' to='/administrador'>Administrador</NavLink>
+            {
+              usuarioLogueado!==''?(
+                <>
+                <NavLink end className='nav-link fs-5' to='/administrador'>Administrador</NavLink>
+                <Button className="nav-link" onClick={logout}>logout</Button>
+                </>
+              ):
             <NavLink end className='nav-link fs-5' to='/login'>Login</NavLink>
+            }
           </Nav>
         </Navbar.Collapse>
       </Container>

@@ -1,32 +1,32 @@
-const URLProducto = import.meta.env.VITE_API_PRODUCTO;
+const URLReceta = import.meta.env.VITE_API_RECETA;
 
 // GET
-export const leerProductoAPI = async () => {
+export const leerRecetaAPI = async () => {
     try {
-        const respuesta = await fetch(URLProducto)
+        const respuesta = await fetch(URLReceta)
         return respuesta
     } catch (error) {
         console.error(error)
         return false;
     }
 }
-export const buscarProductoAPI = async(id)=>{
+export const buscarRecetaAPI = async(id)=>{
     try {
-        const respuesta = await fetch(URLProducto+'/'+id)
+        const respuesta = await fetch(URLReceta+'/'+id)
         return respuesta
     } catch (error) {
         return false;
     }
 }
 // PUT O PATH
-export const editarProductoAPI = async (productoEditado, id) => {
+export const editarRecetaAPI = async (recetaEditado, id) => {
     try {
-        const respuesta = await fetch(URLProducto+'/'+id,{
+        const respuesta = await fetch(URLReceta+'/'+id,{
             method: "PUT",
             headers:{
                 "Content-Type":"application/json"
             },
-            body: JSON.stringify(productoEditado)
+            body: JSON.stringify(recetaEditado)
         })
         return respuesta
     } catch (error) {
@@ -35,14 +35,14 @@ export const editarProductoAPI = async (productoEditado, id) => {
     }
 }
 // POST 
-export const crearProductoAPI = async (productoNuevo) => {
+export const crearRecetaAPI = async (recetaNuevo) => {
     try {
-        const respuesta = await fetch(URLProducto,{
+        const respuesta = await fetch(URLReceta,{
             method: "POST",
             headers:{
                 "Content-Type":"application/json"
             },
-            body: JSON.stringify(productoNuevo)
+            body: JSON.stringify(recetaNuevo)
         })
         console.log(respuesta);
         return respuesta;
@@ -52,9 +52,9 @@ export const crearProductoAPI = async (productoNuevo) => {
     }
 }
 // DELETE
-export const borrarProductoAPI = async (id) => {
+export const borrarRecetaAPI = async (id) => {
     try {
-        const respuesta = await fetch(URLProducto+'/'+id,{
+        const respuesta = await fetch(URLReceta+'/'+id,{
             method:"DELETE"
         })
         return respuesta
