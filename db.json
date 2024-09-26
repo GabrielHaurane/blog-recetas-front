@@ -17,6 +17,24 @@
       "descripcion_breve": "sssssssssssssssss",
       "descripcion": "batir dos huevos en un plato, para luego agregar un poco de canela, una pizca de vainillin, luego de mezclar todo junto mojar el pan en el huevo y con fuego bajo en una sarten colocarlos viendo cada tanto como van y luego servir",
       "id": "3ARpgk2"
+    },
+    {
+      "nombreReceta": "Brownie",
+      "imagen": "https://images.pexels.com/photos/887853/pexels-photo-887853.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "categoria": "Postres",
+      "ingredientes": "1 huevo\n1 harina\n250g chocolate",
+      "descripcion_breve": "un brownie con nueces",
+      "descripcion": "pones huevo en un bowl empezas mesclando y vas agregando el chocolate con la harina",
+      "id": "VQky3M0"
+    },
+    {
+      "nombreReceta": "Panqueque",
+      "imagen": "https://images.pexels.com/photos/5702783/pexels-photo-5702783.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "categoria": "Desayuno",
+      "ingredientes": "3 Huevos\n2 Tazas leche o 0.5 litros de leche\n250 gr harina",
+      "descripcion_breve": "Un panqueque es una masa ligera y esponjosa",
+      "descripcion": "Un panqueque es una masa ligera y esponjosa, generalmente redonda, hecha de harina, leche, huevos y un agente leudante como polvo de hornear. Se cocina en una sartén ",
+      "id": "66JTNv1"
     }
   ]
 }

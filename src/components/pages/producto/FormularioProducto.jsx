@@ -29,6 +29,7 @@ const FormularioReceta = ({titulo, creandoReceta}) => {
             setValue('imagen', recetaEncontrado.imagen)
             setValue('categoria', recetaEncontrado.categoria)
             setValue('ingredientes',recetaEncontrado.ingredientes)
+            setValue('descripcion_breve', recetaEncontrado.descripcion_breve)
             setValue('descripcion', recetaEncontrado.descripcion)
             
         } else {
