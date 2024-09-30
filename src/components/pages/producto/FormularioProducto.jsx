@@ -3,8 +3,7 @@ import { useForm } from "react-hook-form";
 import { buscarRecetaAPI, crearRecetaAPI, editarRecetaAPI } from "../../../helpers/queries";
 import Swal from "sweetalert2";
 import { useEffect } from "react";
-import { useParams } from "react-router-dom";
-
+import { useNavigate, useParams } from "react-router-dom";
 
 
 const FormularioReceta = ({titulo, creandoReceta}) => {
@@ -16,6 +15,7 @@ const FormularioReceta = ({titulo, creandoReceta}) => {
         setValue,
     } =useForm();
     const {id} = useParams();
+    const navegacion = useNavigate();
     useEffect(()=>{
         if (!creandoReceta) {
             cargarReceta()
