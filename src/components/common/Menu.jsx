@@ -29,7 +29,7 @@ const Menu = ({usuarioLogueado, setUsuarioLogueado}) => {
               usuarioLogueado!==''?(
                 <>
                 <NavLink end className='nav-link fs-5' to='/administrador'>Administrador</NavLink>
-                <button className="nav-link" onClick={logout}>logout</button>
+                <button className="nav-link d-flex align-item-start" onClick={logout}>logout</button>
                 </>
               ):
             <NavLink end className='nav-link fs-5' to='/login'>Login</NavLink>
