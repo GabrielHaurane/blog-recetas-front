@@ -23,11 +23,24 @@ const DetalleProducto = () => {
               <img className="w-100" src={recetas.imagen} />
             </div>
             <div className="col-10">
-          <Card.Title>{recetas.nombreReceta} </Card.Title>
-          <Card.Title>{recetas.categoria} </Card.Title>
+          <Card.Title className="fs-2">{recetas.nombreReceta} </Card.Title>
+          <Card.Title className="mt-2">Categoria: {recetas.categoria} </Card.Title>
+          <div className="mt-3">
+            <Card.Title>
+          Ingredientes:
+            </Card.Title>
+          <Card.Text>
+            {recetas.ingredientes}
+          </Card.Text>
+          </div>
+          <div className="mt-3">
+            <Card.Title>
+              Instrucciones:
+            </Card.Title>
           <Card.Text>
             {recetas.descripcion}
           </Card.Text>
+          </div>  
             </div>
           </div>
         </Card.Body>
