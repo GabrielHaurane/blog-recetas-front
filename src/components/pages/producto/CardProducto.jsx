@@ -3,7 +3,7 @@ import DetalleProducto from "../DetalleProducto"
 import { Link } from "react-router-dom";
 const CardProducto = ({recetas}) => {
   return (
-    <div className="my-2 col-3">
+    <div className="my-2 col-12 col-md-3">
             <Card>
               <Card.Img variant="top" src={recetas.imagen} />
               <Card.Body>

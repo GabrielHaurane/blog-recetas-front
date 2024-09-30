@@ -25,7 +25,7 @@ const Inicio = () => {
     <div className="mainSection">
       <div className="container">
         <h2>Nuestras Recetas</h2>
-        <div className="row">
+        <div className="row flex-wrap">
           {
             recetas.map((recetas,index)=>(
               <CardProducto key={index} recetas={recetas} ></CardProducto>

@@ -4,18 +4,18 @@
       "nombreReceta": "panqueques",
       "imagen": "https://images.pexels.com/photos/5840088/pexels-photo-5840088.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "categoria": "Merienda",
-      "ingredientes": "3 huevos, 1 cucharada de azucar, 1 taza de leche, 1 pizca de sal, 1 taza de harina 0000",
+      "ingredientes": "1 taza de harina de trigo (aprox. 120 g)\n1 taza de leche (250 ml)\n1 huevo\n1 cucharada de azúcar (opcional, para panqueques dulces)\n1 pizca de sal\n1 cucharada de mantequilla derretida o aceite (opcional)\nEsencia de vainilla (opcional, para darle sabor)",
       "descripcion_breve": "panqueque con dulce de leche",
-      "descripcion": "Mezclar los huevos con el azúcar Hileret Light, incorporar la leche y la pizca de sal",
+      "descripcion": "Mezclar los ingredientes secos: En un bol, tamiza la harina, añade la sal y el azúcar (si lo usas).\n\nIncorporar los ingredientes líquidos: Agrega la leche, el huevo y la mantequilla derretida o el aceite. Si prefieres panqueques dulces, añade un poco de esencia de vainilla.\n\nBatir la mezcla: Con un batidor de mano o una batidora eléctrica, mezcla todo hasta que quede una masa suave y sin grumos. Si la mezcla está muy espesa, puedes agregar un poco más de leche.\n\nReposar la masa (opcional): Deja reposar la masa por 10-15 minutos para que los ingredientes se mezclen bien.\n\nCocinar los panqueques: Calienta una sartén antiadherente a fuego medio y engrásala ligeramente con mantequilla o aceite. Vierte un poco de masa en el centro de la sartén y muévela para que la mezcla se extienda en forma de círculo fino.\n\nDorar y voltear: Cocina el panqueque durante 1-2 minutos o hasta que los bordes estén dorados y empiecen a despegarse. Voltéalo con una espátula y cocina el otro lado por 30 segundos más.\n\nServir: Apila los panqueques y sírvelos calientes con los acompañamientos que prefieras: dulce de leche, miel, frutas, chocolate o crema.",
       "id": "123"
     },
     {
       "nombreReceta": "Tostada a la francesa",
       "imagen": "https://images.pexels.com/photos/5591730/pexels-photo-5591730.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "categoria": "Desayuno",
-      "ingredientes": "2 tostadas\n1 huevos\ncanela\nvainillin",
-      "descripcion_breve": "sssssssssssssssss",
-      "descripcion": "batir dos huevos en un plato, para luego agregar un poco de canela, una pizca de vainillin, luego de mezclar todo junto mojar el pan en el huevo y con fuego bajo en una sarten colocarlos viendo cada tanto como van y luego servir",
+      "categoria": "Merienda",
+      "ingredientes": "2 huevos\n1/2 taza de leche (125 ml)\n1 cucharadita de extracto de vainilla\n1 cucharada de azúcar (opcional, para un toque dulce)\n1 pizca de canela (opcional)\n4-6 rebanadas de pan (preferiblemente pan de molde o pan del día anterior)\nMantequilla o aceite para freír\nToppings: miel, sirope de arce, frutas, azúcar glas, canela o lo que prefieras.",
+      "descripcion_breve": "Las tostadas a la francesa (o \"French toast\")",
+      "descripcion": "Preparar la mezcla de huevo y leche: En un bol grande, bate los huevos junto con la leche, la vainilla, el azúcar y la canela hasta que estén bien integrados.\n\nSumergir las rebanadas de pan: Sumerge cada rebanada de pan en la mezcla de huevo, asegurándote de que se empapen bien por ambos lados, pero sin que se rompan.\n\nFreír las tostadas: Calienta una sartén grande a fuego medio y añade una pequeña cantidad de mantequilla o aceite. Cocina cada rebanada de pan durante 2-3 minutos por cada lado, o hasta que estén doradas y crujientes.\n\nServir con toppings: Retira las tostadas y sírvelas calientes con tus toppings favoritos como miel, sirope de arce, frutas frescas, azúcar glas, o canela.",
       "id": "3ARpgk2"
     },
     {
