@@ -1,6 +1,6 @@
 import { Button } from "react-bootstrap";
 import Swal from "sweetalert2";
-import { borrarRecetaAPI, leerRecetaAPI } from "../../../helpers/queries";
+import { borrarRecetaAPI, leerRecetaAPI } from "../../../helpers/queries.js";
 import { Link } from "react-router-dom";
 
 const ItemProducto = ({recetas, fila, setListaRecetas}) => {

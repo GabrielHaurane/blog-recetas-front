@@ -1,6 +1,6 @@
 import { Button, Form } from "react-bootstrap";
 import { useForm } from "react-hook-form";
-import { buscarRecetaAPI, crearRecetaAPI, editarRecetaAPI } from "../../../helpers/queries";
+import { buscarRecetaAPI, crearRecetaAPI, editarRecetaAPI } from "../../../helpers/queries.js";
 import Swal from "sweetalert2";
 import { useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";

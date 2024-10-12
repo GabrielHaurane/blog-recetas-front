@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { Table } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import { leerRecetaAPI } from '../../helpers/queries';
-import ItemProducto from './producto/ItemProducto'
+import { leerRecetaAPI } from '../../helpers/queries.js';
+import ItemProducto from './producto/ItemProducto.jsx'
 import Swal from 'sweetalert2';
 
 const Administrador = () => {

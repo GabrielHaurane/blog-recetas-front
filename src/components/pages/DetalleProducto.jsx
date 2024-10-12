@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Card from "react-bootstrap/Card";
 import { Link, useParams } from "react-router-dom";
-import { buscarRecetaAPI } from "../../helpers/queries";
+import { buscarRecetaAPI } from "../../helpers/queries.js";
 const DetalleProducto = () => {
   const {id} = useParams()
   const [recetas,setRecetas]=useState({})

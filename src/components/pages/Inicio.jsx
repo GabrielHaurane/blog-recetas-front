@@ -1,8 +1,8 @@
 import { Container, Row } from "react-bootstrap";
-import CardProducto from "./producto/CardProducto";
+import CardProducto from "./producto/CardProducto.jsx";
 import banner from "../img/banner.jpg"
 import { useEffect, useState } from "react";
-import { leerRecetaAPI } from "../../helpers/queries";
+import { leerRecetaAPI } from "../../helpers/queries.js";
 
 
 const Inicio = () => {

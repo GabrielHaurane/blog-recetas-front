@@ -1,7 +1,7 @@
 import React from "react";
 import { useForm } from "react-hook-form";
 import { Button, Card, Container, Form, Row } from "react-bootstrap";
-import { login } from "../../helpers/queries";
+import { login } from "../../helpers/queries.js";
 import Swal from "sweetalert2";
 import { useNavigate } from "react-router-dom";
 import "./../../App.css"

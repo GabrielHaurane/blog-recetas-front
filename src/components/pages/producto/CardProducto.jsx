@@ -1,5 +1,5 @@
 import { Col, Card, Button, CardFooter } from "react-bootstrap";
-import DetalleProducto from "../DetalleProducto"
+import DetalleProducto from "../DetalleProducto.jsx"
 import { Link } from "react-router-dom";
 const CardProducto = ({recetas}) => {
   return (
