@@ -17,7 +17,7 @@ const ItemProducto = ({recetas, fila, setListaRecetas}) => {
           }).then(async(result) => {
             if (result.isConfirmed) {
               // pedir a la api borrar el receta
-              const respuesta = await borrarRecetaAPI(recetas.id)
+              const respuesta = await borrarRecetaAPI(recetas._id)
               if (respuesta.status === 200) {
                 Swal.fire({
                   title: "receta eliminada",
@@ -55,7 +55,7 @@ const ItemProducto = ({recetas, fila, setListaRecetas}) => {
       </td>
       <td>{recetas.categoria}</td>
       <td className="text-center">
-        <Link className="btn text-dark me-lg-2" style={{backgroundColor: 'rgb(242, 169, 182)'}}  to={`/administrador/editar/${recetas.id}`} variant="warning">
+        <Link className="btn text-dark me-lg-2" style={{backgroundColor: 'rgb(242, 169, 182)'}}  to={`/administrador/editar/${recetas._id}`} variant="warning">
           <i className="bi bi-pencil-square"></i>
         </Link>
         <Button style={{backgroundColor: 'rgb(169, 60, 80)'}} onClick={borrarReceta}>
