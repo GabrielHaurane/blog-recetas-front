@@ -23,13 +23,13 @@ const Menu = ({usuarioLogueado, setUsuarioLogueado}) => {
         <NavLink end className='nav-link fs-2' to="/">Las Resetas de Gabote</NavLink>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ms-auto w-50 d-flex justify-content-end">
-            <NavLink end className='nav-link fs-5' to='/'>Inicio</NavLink>
+          <Nav className="ms-auto w-50 d-flex flex-ms-wrap align-content-end">
+            <NavLink end className='nav-link fs-5 d-flex align-self-end' to='/'>Inicio</NavLink>
             {
               usuarioLogueado!==''?(
                 <>
-                <NavLink end className='nav-link fs-5' to='/administrador'>Administrador</NavLink>
-                <button className="nav-link d-flex align-item-start align-self-center" onClick={logout}>logout</button>
+                <NavLink end className='nav-link fs-5 d-flex align-self-end' to='/administrador'>Administrador</NavLink>
+                <button className="nav-link d-flex align-self-end" onClick={logout}>logout</button>
                 </>
               ):
             <NavLink end className='nav-link fs-5' to='/login'>Login</NavLink>
