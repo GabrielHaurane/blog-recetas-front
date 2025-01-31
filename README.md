@@ -35,33 +35,5 @@ Bootstrap: Para mejorar el diseño y la responsividad con componentes predefinid
    npm start
 
 
-
-📂 # Estructura del Proyecto
-blog-recetas-front/
-│── public/             # Archivos estáticos (favicon, imágenes, manifest.json)
-|
-│── src/
-│   ├── assets/         # Recursos estáticos como imágenes, fuentes, etc.
-|   |
-│   ├── components/     # Componentes reutilizables (Navbar, Footer, CardReceta, etc.)
-|   |
-│   ├── pages/          # Páginas principales (Home, RecetaDetalle, Favoritos)
-|   |
-│   ├── services/       # Funciones para consumir APIs o manejar datos
-|   |
-│   ├── styles/         # Archivos CSS y estilos de Bootstrap personalizados
-|   |
-│   ├── App.js          # Componente principal de la aplicación
-|   |
-│   ├── index.js        # Punto de entrada de React
-|
-│── .gitignore          # Archivos y carpetas a ignorar en Git
-|
-│── package.json        # Dependencias y scripts del proyecto
-|
-│── README.md           # Documentación del proyecto
-
-
-
 🖼️ Capturas de Pantalla
 ![recetasGabote](https://github.com/user-attachments/assets/544a1bff-6ea1-48e8-9678-5d703697706e)
