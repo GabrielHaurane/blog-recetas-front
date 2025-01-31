@@ -36,7 +36,7 @@ Bootstrap: Para mejorar el diseño y la responsividad con componentes predefinid
 
 
 
-📂 Estructura del Proyecto
+📂 # Estructura del Proyecto
 blog-recetas-front/
 │── public/             # Archivos estáticos (favicon, imágenes, manifest.json)
 |
