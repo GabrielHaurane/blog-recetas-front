@@ -1,4 +1,4 @@
-#Blog de Recetas
+Blog de Recetas
 
 Un blog de recetas interactivo y dinámico desarrollado con JavaScript, React, HTML, CSS y Bootstrap. Permite a los usuarios explorar, buscar y visualizar recetas con detalles completos.
 
@@ -33,6 +33,9 @@ Bootstrap: Para mejorar el diseño y la responsividad con componentes predefinid
    npm install
 3. Inicia la aplicación en modo desarrollo:
    npm start
+
+
+
 📂 Estructura del Proyecto
 blog-recetas-front/
 │── public/             # Archivos estáticos (favicon, imágenes, manifest.json)
@@ -47,6 +50,8 @@ blog-recetas-front/
 │── .gitignore          # Archivos y carpetas a ignorar en Git
 │── package.json        # Dependencias y scripts del proyecto
 │── README.md           # Documentación del proyecto
+
+
 
 🖼️ Capturas de Pantalla
 ![recetasGabote](https://github.com/user-attachments/assets/544a1bff-6ea1-48e8-9678-5d703697706e)
