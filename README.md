@@ -1,4 +1,4 @@
-Blog de Recetas
+#Blog de Recetas
 
 Un blog de recetas interactivo y dinámico desarrollado con JavaScript, React, HTML, CSS y Bootstrap. Permite a los usuarios explorar, buscar y visualizar recetas con detalles completos.
 
